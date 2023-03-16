@@ -1,6 +1,6 @@
 // url: https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/796/
 
-var subsets = function(nums) {
+var subsets1 = function(nums) {
     const results = [[]];
     for(let num of nums) {
         
